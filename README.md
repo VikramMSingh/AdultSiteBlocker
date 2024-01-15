@@ -4,16 +4,16 @@ Adult site blocker for Mac
 
 The program modifies the host file to block adult sites
 
-How to run? 
+Pre-requisites
+Python installation (Version 3 and above)
 
-Pre-req - Python installation (Version 3 and above)
-
-Simply clone the repository with the file 
+Steps
+Simply clone the repository 
 
 Run:
 sudo python3 blocker.py
 
-followed by 
+Run:
 sudo dscacheutil -flushcache
 
 
